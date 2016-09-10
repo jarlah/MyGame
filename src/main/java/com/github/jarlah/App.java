@@ -1,4 +1,4 @@
-package com.github.jarlah.mygame;
+package com.github.jarlah;
 import org.lwjgl.*;
 import org.lwjgl.glfw.*;
 import org.lwjgl.opengl.*;
@@ -8,7 +8,7 @@ import static org.lwjgl.glfw.GLFW.*;
 import static org.lwjgl.opengl.GL11.*;
 import static org.lwjgl.system.MemoryUtil.*;
 
-public class Main {
+public class App {
 	private int WIDTH = 1080;
 	private int HEIGHT = 720;
 	private long window;
@@ -98,6 +98,6 @@ public class Main {
 	}
 
 	public static void main(String[] args) {
-		new Main().run();
+		new App().run();
 	}
 }

@@ -1,3 +1,9 @@
 this is my first attempt to make a game in LWJGL.
 
 I'll be called MyGame for now.
+
+Run with:
+
+```
+mvn compile exec:java -Dexec.mainClass="com.github.jarlah.App" -Dorg.lwjgl.librarypath=lwjgl/native 
+```
